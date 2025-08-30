@@ -47,6 +47,10 @@ public class Employee {
 		this.joiningDate = joiningDate;
 	}
 	
-	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.id_num+"_"+this.name;
+	}
 	
 }
