@@ -1,0 +1,21 @@
+* Dates: java.util.Date and java.time.LocalDate
+	- LocalDate-> Recently Included in Java8 . Includes only year, month, and date. Much cleaner handling API. Use java.time.LocalTime for handling time.
+	- util.Date -> Wrapper around 'long', contains info down to milliseconds. Includes time of day info.
+	- util.LocalDateTime -> Info of both Date and Times.
+	- java.time.format.DateTimeFormatter
+	- Duration.between(LocalDate,LocalDate)
+	
+* Datatypes:
+	- Primitive: 
+		* Whole Numbers(byte, short, int, long)
+		* Fractions (float, double)
+		* boolean
+		* char
+	- NonPrimitive: String, Arrays, Collections..etc
+	
+* String.format("%s",date)
+
+* 'this' is mostly to resolve conflict between local and global variables
+
+====================
+Why 'throw new IllegalArgumentException("Invalid Time Format..");' is not expecting 'throws' at function level
