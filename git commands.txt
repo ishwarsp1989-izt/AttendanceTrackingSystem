@@ -1,0 +1,14 @@
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git branch -M main
+git push -u origin main
+
+
+git status
+
+git add Employee.java   
+OR
+git add .
+
+git commit -m "Update Employee.java - describe what you changed"
+
+git push
